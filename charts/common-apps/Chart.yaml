@@ -1,0 +1,16 @@
+apiVersion: v2
+name: common-apps-chart
+version: 0.1.0
+
+dependencies:
+  - name: kube-prometheus-stack
+    version: "15.4.6"
+    repository: "https://prometheus-community.github.io/helm-charts"
+
+  - name: external-secrets
+    version: "0.5.7"
+    repository: "https://external-secrets.github.io/kubernetes-external-secrets/"
+
+  - name: reloader
+    version: "0.0.99"
+    repository: "https://stakater.github.io/stakater-charts"
