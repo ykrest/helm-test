@@ -4,13 +4,13 @@ version: 0.1.0
 
 dependencies:
   - name: kube-prometheus-stack
-    version: "15.4.6"
+    version: "25.24.0"
     repository: "https://prometheus-community.github.io/helm-charts"
 
   - name: external-secrets
-    version: "0.5.7"
-    repository: "https://external-secrets.github.io/kubernetes-external-secrets/"
+    version: "0.9.20"
+    repository: "https://charts.external-secrets.io"
 
   - name: reloader
-    version: "0.0.99"
+    version: "1.0.118"
     repository: "https://stakater.github.io/stakater-charts"
