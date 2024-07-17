@@ -12,6 +12,17 @@ entries:
     urls:
     - https://github.com/ykrest/helm-test/releases/download/argo-cd-1.0.0/argo-cd-1.0.0.tgz
     version: 1.0.0
+  - apiVersion: v2
+    created: "2024-07-17T11:42:23.945208183Z"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 7.3.7
+    digest: c5cdc5dfb77ace4737b6da516f435b0edcc506776dc42b59b71be6185c597a34
+    name: argo-cd
+    urls:
+    - https://github.com/ykrest/helm-test/releases/download/argo-cd-0.0.1/argo-cd-0.0.1.tgz
+    version: 0.0.1
   common-apps-chart:
   - apiVersion: v2
     created: "2024-07-16T13:07:14.745530709Z"
@@ -47,4 +58,4 @@ entries:
     urls:
     - https://github.com/ykrest/helm-test/releases/download/common-apps-chart-0.1.0/common-apps-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-17T11:00:17.364908006Z"
+generated: "2024-07-17T11:42:23.945219605Z"
