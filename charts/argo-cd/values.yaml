@@ -5,4 +5,4 @@ argo-cd:
     enabled: false
   server:
     service:
-    type: LoadBalancer
+      type: LoadBalancer
